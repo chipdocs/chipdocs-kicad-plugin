@@ -1,0 +1,34 @@
+{
+  "packages": [
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "ChipDocs \u2014 Free KiCad Footprints, Symbols & 3D STEP",
+      "description": "Search 7,900+ IPC-7351B electronic components on chipdocs.org and install KiCad footprints (.kicad_mod), schematic symbols (.kicad_sym) & 3D STEP models directly into your project.",
+      "description_full": "ChipDocs Open-Hardware Library Plugin connects KiCad 7/8/9 directly to chipdocs.org (CERN-OHL-P-2.0). Search components by MPN, find pin-compatible replacements, and download verified IPC-7351B footprints (with 60% windowed EPAD paste grids), IEEE-315 symbols, and parametric 3D STEP AP214 models into your active KiCad project folder with one click.",
+      "identifier": "org.chipdocs.kicad",
+      "type": "plugin",
+      "author": {
+        "name": "ChipDocs.org",
+        "contact": {
+          "web": "https://chipdocs.org"
+        }
+      },
+      "license": "MIT",
+      "resources": {
+        "homepage": "https://chipdocs.org",
+        "tools": "https://chipdocs.org/tools"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "status": "stable",
+          "kicad_version": "7.0",
+          "download_sha256": "d19ee99fa41d480aa4836644e68b7b4ae007ca528a263733285699fd9556b93b",
+          "download_size": 3463,
+          "download_url": "https://github.com/chipdocs/chipdocs-kicad-plugin/releases/download/v1.0.0/org.chipdocs.kicad-1.0.0.zip",
+          "install_size": 3463
+        }
+      ]
+    }
+  ]
+}
